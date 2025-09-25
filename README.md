@@ -1,6 +1,9 @@
+
 # ETH-CLUSTER-NOTES
 
 Note : court decision neuchatel in .md + quite big system prompt is 14474 input tokens for bytedance model
+
+Using the tokenizer for qwen3-235B, one token is on average 3.4 characters
 
 run bytedance on single a100 80GB
 
