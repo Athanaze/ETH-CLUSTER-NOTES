@@ -2,6 +2,12 @@
 
 Note : court decision neuchatel in .md + quite big system prompt is 14474 input tokens for bytedance model
 
+run bytedance on single a100 80GB
+
+```
+vllm serve "ByteDance-Seed/Seed-OSS-36B-Instruct"   --max-model-len 20000  --swap-space 32 --gpu_memory_utilization=0.95
+```
+
 ## CHECK ACCOUNT STATE
 
 https://slurm-jobs-webgui.euler.hpc.ethz.ch/
