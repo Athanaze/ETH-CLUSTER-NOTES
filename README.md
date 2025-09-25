@@ -1,3 +1,22 @@
+```
+venv) [s@qr text_content]$ python text_content_analysis.py
+Starting analysis of 'deduplicated_fixed.csv'...
+Using 16 worker processes and a chunk size of 1000 rows.
+Processing Chunks: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 1854/1854 [00:00<00:00, 4470.77it/s]
+
+--- Statistics on Character Lengths of Text Parts (>= 5 chars) ---
+Total valid parts analyzed: 1,853,338
+Average (Mean) Length:      14790.06
+Median Length:              3042.00
+Standard Deviation:         25864.61
+95th Percentile:            54193.00 (95% of parts are shorter than this)
+Average Length in Top 1%:   170261.30
+Average Length in Top 0.1%: 385385.12
+
+Generating plots...
+Plots saved to 'length_analysis_plots.png'
+```
+
 
 # ETH-CLUSTER-NOTES
 
