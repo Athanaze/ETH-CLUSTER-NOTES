@@ -1,6 +1,6 @@
 # ETH-CLUSTER-NOTES
 
-Note : court decision neuchatel in .md + quite big system prompt is 14474 input tokens
+Note : court decision neuchatel in .md + quite big system prompt is 14474 input tokens for bytedance model
 
 ## CHECK ACCOUNT STATE
 
