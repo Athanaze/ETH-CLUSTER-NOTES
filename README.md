@@ -1,4 +1,15 @@
 ```
+parts.csv"...
+Filtering values > 6500 and normalizing.
+
+--- Statistics ---
+Count: 823250
+Mean: 4.791, Std: 4.916
+Min: 1.000, Q25: 2.275, Median: 3.610, Q75: 5.687, Max: 406.668
+95% CI for mean: [4.781, 4.802]
+```
+
+```
 venv) [s@qr text_content]$ python text_content_analysis.py
 Starting analysis of 'deduplicated_fixed.csv'...
 Using 16 worker processes and a chunk size of 1000 rows.
