@@ -1,3 +1,14 @@
+LOGIN ON HUGGINGFACE
+
+```
+
+pip install -U "huggingface_hub[cli]"
+
+hf auth login
+
+huggingface-cli download liechticonsulting/private_jurisprudence --repo-type dataset --local-dir ./private_jurisprudence
+```
+
 ```python
 
 import pandas as pd
