@@ -1,3 +1,8 @@
+**THE SCRATCH FOLDER IS EXTREMELY SLOW**
+
+-> Put the venv in home folder
+
+
 LOGIN ON HUGGINGFACE
 
 ```
